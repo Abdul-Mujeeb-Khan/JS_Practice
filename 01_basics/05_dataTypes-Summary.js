@@ -30,3 +30,28 @@ const myFunction = function(){
 console.log(typeof heros); //object 
 
 console.log(typeof anotherId);
+
+
+// ****************************************************
+
+// Stack (Pimitive), Heap Memory (Non-Primitive)
+
+let myName = "Mujeeb"
+let anotherName = myName
+anotherName = "Harsh"
+
+console.log(myName);
+console.log(anotherName);
+
+let user1 = {
+    email: "user@gmail.com",
+    upi: "123@ybl"
+}
+
+let user2 = user1
+
+user2.email = "mujeeb222@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
