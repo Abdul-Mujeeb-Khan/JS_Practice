@@ -38,5 +38,5 @@ console.log(`The date is ${newDate.toLocaleDateString()} and the time is ${newDa
 
 console.log(newDate.toLocaleString('default', {
     weekday: "long"
-})); //custom format
+})); //custom date and time
 
