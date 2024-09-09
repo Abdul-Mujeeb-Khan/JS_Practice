@@ -3,7 +3,7 @@ console.log("*************** OBJECTS ***************");
 
 // Object.create -> Constructor - singleton
 
-// object literals
+// object literals -> Non-Singleton
 
 const mySym = Symbol("Key")
 
