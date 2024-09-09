@@ -76,3 +76,32 @@ console.log(Object.entries(tinderUser));// provides an array of array of key val
 
 // While looping in Objects and find a value and sometimes that value doesn't exist so do this
 console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+// de-Structuring of Objects (used in destructuring objects recieved from React)
+const course ={
+    courseName : "JS in hindi",
+    price : "999",
+    courseInstructor : "Hitesh"
+}
+
+// course.courseInstructor
+const {courseInstructor : instructor} = course
+console.log(instructor);
+/* JS Obect Destructuring is the syntax for extracting
+values from an object property and assigning them to 
+a variable. it is also possible for JS Arrays. */
+
+
+// JSON -> Object but without any name
+// {
+//     "name" : 'Mujeeb',
+//     "courseName" : 'JS',
+//     "price" : "free"
+// }
+// Sometimes APIs are in the form of array but mostly in form of objects
+// [
+//     {},
+//     {},
+//     {}
+// ]
