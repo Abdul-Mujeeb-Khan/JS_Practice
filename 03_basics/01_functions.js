@@ -36,7 +36,7 @@ console.log("Result : ", result1);
 
 // function loginUserMessage(userName = "Sam") { // now username will never be undefined -> default parameter
 function loginUserMessage(userName) { // now username will never be undefined
-    // if(userName === undefined){ // undefined is considered as false asnd the username is undefined then only we go into this block 
+    // if(userName === undefined){ // undefined is considered as false and the username is undefined then only we go into this block 
     if(!userName){ // same as above 
         console.log("Please Enter a Username");
         return
