@@ -17,10 +17,10 @@ console.log(gameName.toUpperCase());
 console.log(gameName.charAt(4));
 console.log(gameName.indexOf('M'));
 
-const newString = gameName.substring(0,4)
+const newString = gameName.substring(0,4) // substr(start, length)
 console.log(newString);
 
-const anotherString = gameName.slice(-8,4)
+const anotherString = gameName.slice(-8,4) //slice(start, end)
 console.log(anotherString);
 
 const newStringOne = "    Mujeeb        "
