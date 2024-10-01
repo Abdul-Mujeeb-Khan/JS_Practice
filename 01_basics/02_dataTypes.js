@@ -11,8 +11,8 @@ let isLoggedIn = false
 // bigint 
 // string -> '' / ""
 // boolean -> true/false
-// null -> standalone value (representation of empty value)
-// undefined -> no value assigned
+// null -> standalone value (representation of empty value) - typeof(null) -> object
+// undefined -> no value assigned - typeof(undfined) -> undefined
 // symbol -> mostly used in react(to find uniqueness)
 
 
