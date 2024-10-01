@@ -31,6 +31,9 @@ console.log(typeof heros); //object
 
 console.log(typeof anotherId);
 
+console.log(typeof myFunction);
+
+
 
 // ****************************************************
 
