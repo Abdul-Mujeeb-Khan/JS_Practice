@@ -19,3 +19,14 @@ and functional scope.
 */
 
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
+
+/*
+When you declare a variable in JavaScript without using var, let, or const, 
+it is implicitly created as a global variable (if it’s not in strict mode). 
+This means it becomes a property of the global object (like window in browsers).
+*/
+
+/*
+In strict mode, attempting to use an undeclared variable will throw a ReferenceError,
+ preventing accidental global variable creation. Always strive for explicit declarations to avoid issues!
+ */
