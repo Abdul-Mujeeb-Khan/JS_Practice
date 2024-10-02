@@ -31,7 +31,7 @@ console.log(myArr.includes(0));
 
 console.log(myArr.indexOf(9));
 
-const newArr = myArr.join()// converts to srting separated by thge argument given
+const newArr = myArr.join()// converts to srting separated by the argument given
 console.log(myArr);
 console.log(newArr);
 console.log(typeof myArr);
