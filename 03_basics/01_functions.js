@@ -46,3 +46,42 @@ function loginUserMessage(userName) { // now username will never be undefined
 console.log(loginUserMessage("Mujeeb"))
 console.log(loginUserMessage()); // undefined , if 'if' statement is not used
 
+// In functions if we pass 3 arguments in a function of only one parameter
+// then the first argument is only passed in the parameter
+
+// Sometimes we don't know how many items we will receive in the functions
+// like add to cart, so do -> rest operator (...)
+function calculateCartPrice(...num1) { //rest operator here, not spread
+    return num1;
+}
+
+console.log(calculateCartPrice(200, 400, 500)) // returns array of arguments
+
+// Objects in Functions
+
+const user = {
+    userNameX: "Mujeeb",
+    prices: 199 // here it is prices but in function definition we passed price
+}// so we need to check typesafety
+
+function handleObject(anyObject) {
+    console.log(`Username is ${anyObject.userNameX} and price is ${anyObject.price}`);
+}
+handleObject(user)
+
+// Directly passing objects in functions
+handleObject ({
+    userNameX: "Sam",
+    price: 399
+})
+
+// Arrays in Functions
+const myNewArray = [200, 400, 100, 600]
+
+function returnSecondValue(getArray) {
+    return getArray[1]
+}
+
+console.log(returnSecondValue(myNewArray));
+// Directly passing arrays in functions
+console.log(returnSecondValue([100,300,500,700]));
