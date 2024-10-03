@@ -7,12 +7,13 @@
 
 if (true) {
     let a =23
-    const y = "xyz"
     var b = 123
+    const c = "xyz"
+ 
 }
 console.log(a); // error
 console.log(b); // no error
-console.log(y); // error
+console.log(c); // error
 // the variables declared using let and const keywords cannot be accessed outside of
 // their scope, but var ones can be.
 // This is a major problem with var keyword for declaring variables.
