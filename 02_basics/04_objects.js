@@ -93,7 +93,7 @@ values from an object property and assigning them to
 a variable. it is also possible for JS Arrays. */
 
 
-// JSON -> Object but without any name
+// JSON (JavaScript Object Notation) -> Object but without any name
 // {
 //     "name" : 'Mujeeb',
 //     "courseName" : 'JS',
